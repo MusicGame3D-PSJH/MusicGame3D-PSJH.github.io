@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: flex;
+    left: 0;
+    top: 0;
+}
+
+#main {
+    background-color: #000000;
+    display: none;
+}
+
+#main2 {
+    background-color: #000000;
+    z-index: 1;
+}
+
+#blockImage {
+    width: 16px;
+    height: 16px;
+    image-rendering: pixelated;
+    z-index: 2;
+}

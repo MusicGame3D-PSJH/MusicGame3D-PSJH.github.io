@@ -1,5 +1,6 @@
-const block_data = {
-    'BlockBlue1': {
+// set the block resources.
+const blockResources = {
+    BlockBlue1: {
         'Palette': {
             '0': '#1A83C4',
             '1': '#1882C3',
@@ -269,7 +270,7 @@ const block_data = {
             'FF': '2'
         }
     },
-    'BlockBlue2': {
+    BlockBlue2: {
         'Palette': {
             '0': '#2195CC',
             '1': '#44C1E6',
@@ -572,7 +573,7 @@ const block_data = {
 
         }
     },
-    'BlockGreen1': {
+    BlockGreen1: {
         'Palette': {
             '0': '#54A20C',
             '1': '#56A40E',
@@ -842,7 +843,7 @@ const block_data = {
             'FF': '3'
         }
     },
-    'BlockGreen2': {
+    BlockGreen2: {
         'Palette': {
             '0': '#5CAA0C',
             '1': '#5DAC0C',
@@ -862,10 +863,10 @@ const block_data = {
             'F': '#57A50C',
             '10': '#66B30C',
             '11': '#62B00C',
-            '12': '#6FBBC9',
+            '12': '#60ae0c',
             '13': '#58A60C',
             '14': '#59A60C',
-            '15': '#7F0000',
+            '15': '#7fc91b',
             '16': '#74C010',
             '17': '#59A70C',
             '18': '#65B10C',
@@ -1131,7 +1132,7 @@ const block_data = {
             'FF': '9'
         }
     },
-    'BlockYellow1': {
+    BlockYellow1: {
         'Palette': {
             '0': '#F2AB0A',
             '1': '#F0AA0A',
@@ -1402,7 +1403,7 @@ const block_data = {
             'FF': '4'
         }
     },
-    'BlockYellow2': {
+    BlockYellow2: {
         'Palette': {
             '0': '#F4B410',
             '1': '#FED735',
@@ -1705,7 +1706,7 @@ const block_data = {
             'FF': '9'
         }
     },
-    'BlockPink1': {
+    BlockPink1: {
         'Palette': {
             '0': '#A32699',
             '1': '#A4279A',
@@ -1973,7 +1974,7 @@ const block_data = {
             'FF': '0'
         }
     },
-    'BlockPink2': {
+    BlockPink2: {
         'Palette': {
             '0': '#AC2EA1',
             '1': '#D357CE',

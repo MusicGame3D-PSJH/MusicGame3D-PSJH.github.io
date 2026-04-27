@@ -16,9 +16,16 @@
 <script src="reset.js"></script>
 <script src="class.js"></script>
 <script src="script.js"></script>
-<script onload="
-">
+<script onload="">
     resize();
+    ctx.beginPath();
+    let B1 = new Block(0, 0, 0, 'Blue2');
+    for (let x = 0; x < 16; x++) {
+        for (let y = 0; y < 16; y++) {
+            ctx.fillStyle = B1.getColor('1', x, y);
+            ctx.fillRect(x * 16, y * 16, 16, 16);
+        }
+    }
 </script>
 
 </html>

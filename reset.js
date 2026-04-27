@@ -21,25 +21,6 @@ var mousePos = {
     y: 0
 }
 
-// get block resources.
-function loadImage(url) {
-    let image = blockImage.cloneNode();
-    image.src = url;
-    return image;
-}
-
-// set the block resources.
-const blockResources = {
-    'block-1-1': loadImage('images/block_light_blue_1.png'),
-    'block-1-2': loadImage('images/block_light_blue_2.png'),
-    'block-2-1': loadImage('images/block_lime_1.png'),
-    'block-2-2': loadImage('images/block_lime_2.png'),
-    'block-3-1': loadImage('images/block_yellow_1.png'),
-    'block-3-2': loadImage('images/block_yellow_2.png'),
-    'block-4-1': loadImage('images/block_magenta_1.png'),
-    'block-4-2': loadImage('images/block_magenta_2.png'),
-}
-
 var keyPressed = {
     Player1: {
         // Move keys. (left control lever)
